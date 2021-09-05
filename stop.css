@@ -2,16 +2,20 @@ body {
   background-color: rgb(86, 86, 235);
   color: rgb(233, 221, 221);
 }
+.section {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
 .heading {
   text-align: center;
   font-size: 50px;
   font-weight: bold;
   color: turquoise;
 }
-#time {
-  display: flex;
-  justify-content: center;
+.container {
 }
+
 .digit {
   font-size: 150px;
   font-weight: bold;
